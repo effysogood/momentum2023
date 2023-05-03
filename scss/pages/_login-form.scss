@@ -1,0 +1,20 @@
+.login {
+    &__form {
+        display: flex;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+.greeting {
+    font-size: 2rem;
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    0% {
+        top: -3rem;
+    }
+    100% {
+        top: 0;
+    }
+}
