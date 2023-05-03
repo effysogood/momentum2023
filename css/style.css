@@ -370,12 +370,39 @@ template {
     top: 0;
   }
 }
+.clock {
+  font-size: 4.2rem;
+}
+
+.quote {
+  word-break: keep-all;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  text-align: center;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+.quote__phrase {
+  line-height: 2.4rem;
+  font-size: 1.8rem;
+}
+.quote__author {
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+
 .wrapper {
   width: 100vw;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 2.4rem;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .hidden {

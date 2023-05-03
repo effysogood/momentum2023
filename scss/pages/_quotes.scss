@@ -1,0 +1,17 @@
+.quote {
+    word-break: keep-all;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    text-align: center;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    &__phrase {
+        line-height: 2.4rem;
+        font-size: 1.8rem;
+    }
+    &__author {
+        font-size: 1.6rem;
+        color: rgba(0, 0, 0, 0.4);
+    }
+}
